@@ -1,0 +1,18 @@
+builds:
+  - targets:
+      - linux_amd64
+      - windows_amd64
+      - darwin_amd64
+      - darwin_arm64
+universal_binaries:
+  - replace: true
+changelog:
+  use: github-native
+release:
+brews:
+  - repository:
+      owner: leancodepl
+      name: arbsort
+    folder: Formula
+    homepage: https://github.com/leancodepl/arbsort
+    description: POEditor JSON to Flutter ARB converter.
